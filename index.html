@@ -15,7 +15,7 @@
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 
-const firebaseConfig = {
+var firebaseConfig = {
   apiKey: "AIzaSyAQ1Sx-MJ-uT1iQ4B6grCqbP6SDqrxAPro",
   authDomain: "multi-player-car-racing-45116.firebaseapp.com",
   projectId: "multi-player-car-racing-45116",
@@ -25,7 +25,7 @@ const firebaseConfig = {
 };
 
 
-const app = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 
 <!--database code ends here-->    
